@@ -81,7 +81,7 @@ function Room() {
             </div> 
           </div>
         </div>
-        {/* <RoomBooking/> */}
+        <RoomBooking/>
       </section>
     </div>
    

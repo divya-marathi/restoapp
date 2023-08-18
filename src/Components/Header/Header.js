@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg text-white bg-dark">
+      <nav class="navbar navbar-expand-lg text-white mb-0  bg-dark">
         <div class=" text-white container-fluid">
           <Link class="text-white navbar-brand" to="/home">
             Hotel

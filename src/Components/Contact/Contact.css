@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    width: 100vw;
+   
 
 }
   
@@ -71,7 +71,7 @@
       min-height: 205px;
       border-radius: 3px;
   }
-  .contact form input[type="submit"] {
+  /* .contact form input[type="submit"] {
       background: #ff6f5c;
       padding: 0.5em 3em;
       color:#fff;
@@ -86,11 +86,11 @@
       font-weight: bold;
       cursor: pointer;
       float: right;
-  }	
-  .contact form input[type="submit"]:hover{
+  }	 */
+  /* .contact form button[type="submit"]:hover{
     background: #FFFFFF;
     color: #000;
-  }
+  } */
   /*-- contact --*/
   
   .wrap {
@@ -120,7 +120,9 @@
   
   /* Map*/
   .mapouter{position:relative;text-align:right;}
-  .gmap_canvas {overflow:hidden;background:none!important}
+  .gmap_canvas {
+    max-width: 100%;    
+  }
   
   
   
