@@ -1,0 +1,14 @@
+.home {
+    background: url("https://www.hospitalitynet.org/picture/xxl_153095171.jpg?t=1542797877");
+    background-position: center;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}

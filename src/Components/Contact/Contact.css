@@ -1,0 +1,132 @@
+.contacts {
+    background: url("https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg=");
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+
+}
+  
+  body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }  
+ 
+  
+  .column{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /*-- contact-section --*/
+  .contact{
+     background: #e6bf92;
+      margin:2em ;
+      overflow: hidden;
+      padding: 1em;
+
+  }
+  
+  
+  .contact form input[type="text"]{
+        width: 100%;
+    padding: 1.5% 0;
+    margin-bottom: 7%;
+    background: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+    font-weight: 400;
+    text-indent: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+  }
+  .contact form textarea {
+      resize:none;
+      width: 100%;
+      padding: 2% 0;
+      margin-bottom: 5%;
+      background:none;
+      color: #FFFFFF;
+      font-size:18px;
+      outline: none;
+      font-weight:400;
+      text-indent: 10px;
+      border: 1px solid #FFFFFF;
+      min-height: 205px;
+      border-radius: 3px;
+  }
+  .contact form input[type="submit"] {
+      background: #ff6f5c;
+      padding: 0.5em 3em;
+      color:#fff;
+      font-size: 19px;
+      font-weight: 400;
+      display: block;
+      outline: none;
+      border: none;
+      border-radius:5px;
+      text-transform:uppercase;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      cursor: pointer;
+      float: right;
+  }	
+  .contact form input[type="submit"]:hover{
+    background: #FFFFFF;
+    color: #000;
+  }
+  /*-- contact --*/
+  
+  .wrap {
+    width: 80%;
+    margin: 0px auto;
+  }
+ 
+  
+  
+  @media (min-width: 992px){
+  .container {
+    width: 970px;
+  }
+  .column {
+    width: 50%;
+    float: left;
+  }
+  }
+  
+  
+  @media (min-width: 1200px){
+      .container {
+        width: 1170px;
+      }
+  }
+  
+  
+  /* Map*/
+  .mapouter{position:relative;text-align:right;}
+  .gmap_canvas {overflow:hidden;background:none!important}
+  
+  
+  
+  
+
+  
+  
+  
+  

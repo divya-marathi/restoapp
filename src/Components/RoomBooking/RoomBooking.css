@@ -1,0 +1,74 @@
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbfb;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .room-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .room-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  
+  .selected {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+  }
+  
+  
+  .selected-room {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+    
